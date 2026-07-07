@@ -38,6 +38,7 @@ export default function ImageWithFallback({
       fill
       priority={priority}
       sizes={sizes}
+      unoptimized
       className={clsx('object-cover', className)}
       onError={() => setFailed(true)}
     />
