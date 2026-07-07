@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/inventory/[category]/[slug]/page": "app/inventory/[category]/[slug]/page.js",
+  "/api/inquiry/route": "app/api/inquiry/route.js",
+  "/contact/page": "app/contact/page.js"
+}
