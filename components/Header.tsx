@@ -27,7 +27,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[#2a2a2a] bg-[#1a1a1a]">
+    <header className="relative z-50 border-b border-[#2a2a2a] bg-[#1a1a1a]">
       <div className="container-shell">
         <div className="flex items-center justify-between py-3">
           <SiteLogo />

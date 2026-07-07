@@ -64,14 +64,14 @@ export default function CategoryPage({ params }: CategoryPageProps) {
           </p>
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid min-w-0 gap-10 xl:grid-cols-[minmax(0,1fr)_280px] 2xl:grid-cols-[minmax(0,1fr)_320px]">
+  <div className="grid min-w-0 self-start grid-cols-1 items-start gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 2xl:grid-cols-3">
             {categoryMachines.map((machine) => (
               <MachineCard key={machine.slug} machine={machine} />
             ))}
           </div>
 
-          <aside className="h-fit border border-[#333] bg-surface p-6">
+          <aside className="h-fit min-w-0 border border-[#333] bg-surface p-6">
             <h2 className="mb-4 font-oswald text-xl uppercase tracking-wider text-text-primary">
               Other Categories
             </h2>
@@ -83,10 +83,12 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                   <Link
                     key={item.slug}
                     href={`/inventory/${item.slug}`}
-                    className="flex items-center justify-between border border-[#333] bg-[#1e1e1e] px-4 py-3 transition-colors hover:border-accent"
-                  >
-                    <span className="font-inter text-sm text-text-primary">{item.name}</span>
-                    <span className="font-oswald text-sm text-accent">{count}</span>
+                    className="flex min-w-0 items-center justify-between gap-3 border border-[#333] bg-[#1e1e1e] px-4 py-3 transition-colors hover:border-accent"
+>
+  <span className="min-w-0 truncate font-inter text-sm text-text-primary">
+    {item.name}
+  </span>
+  <span className="shrink-0 font-oswald text-sm text-accent">{count}</span>
                   </Link>
                 );
               })}

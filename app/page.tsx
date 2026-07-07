@@ -18,7 +18,7 @@ export default function HomePage() {
               <span className="mt-3 block text-accent">Built for the Frontier.</span>
             </h1>
             <p className="mt-8 max-w-2xl font-inter text-lg text-steel">
-              30 machines in stock across 7 categories. Combines, tractors, sprayers and more — ready to work.
+              {machines.length} machines in stock across {categories.length} categories. Combines, tractors, sprayers and more — ready to work.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link href="/inventory" className="primary-button">
@@ -33,10 +33,10 @@ export default function HomePage() {
 
           <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
             {[
-              { value: '30+', label: 'Units' },
-              { value: String(categories.length), label: 'Categories' },
-              { value: '2010', label: 'Est.' },
-            ].map((stat) => (
+  { value: String(machines.length), label: 'Units' },
+  { value: String(categories.length), label: 'Categories' },
+  { value: '2010', label: 'Est.' },
+].map((stat) => (
               <div key={stat.label} className="border border-[#2f3a35] bg-black/20 p-6 backdrop-blur-sm">
                 <div className="font-oswald text-4xl uppercase text-text-primary">{stat.value}</div>
                 <div className="mt-2 font-inter text-sm uppercase tracking-[0.2em] text-steel">
@@ -65,7 +65,9 @@ export default function HomePage() {
             <h2 className="font-oswald text-3xl uppercase tracking-wider text-text-primary md:text-4xl">
               Available Inventory
             </h2>
-            <p className="mt-3 font-inter text-steel">30 units currently in stock</p>
+            <p className="mt-3 font-inter text-steel">
+  {machines.length} units currently in stock
+</p>
           </div>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {machines.map((machine) => (
