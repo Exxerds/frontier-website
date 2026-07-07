@@ -1,4 +1,4 @@
-﻿export type Machine = {
+export type Machine = {
   slug: string;
   category: string;
   categorySlug: string;
@@ -403,7 +403,7 @@ Optional AutoTrac™ RowSense™ Sensors guide the combine automatically based o
       'Hook-up': 'Single-Point',
       'Serial Number': '1H00618CEDC755275',
     },
-    images: Array.from({ length: 20 }, (_, i) => `/inventory/2013-john-deere-616c/${i + 1}.jpg`),
+    images: Array.from({ length: 19 }, (_, i) => `/inventory/2013-john-deere-616c/${i + 1}.jpg`),
   },
   {
     slug: '2017-new-holland-980cr',
@@ -730,7 +730,7 @@ The Magnum cab was highly regarded for spaciousness, excellent visibility, and o
       Hours: '8,108',
       'Serial Number': 'JJA0069075',
     },
-    images: Array.from({ length: 14 }, (_, i) => `/inventory/1996-case-ih-7230/${i + 1}.jpg`),
+    images: Array.from({ length: 13 }, (_, i) => `/inventory/1996-case-ih-7230/${i + 1}.jpg`),
   },
   {
     slug: '2002-john-deere-8220',
@@ -1151,7 +1151,7 @@ The CommandView III Cab features Generation 4 CommandCenter display, CommandARM 
       'Hours': '3,645',
       'Serial Number': '1RW7210SPMC121409'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2021-john-deere-7r-210/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2021-john-deere-7r-210/${i + 1}.jpg`),
   },
 
   {
@@ -1190,7 +1190,7 @@ Configured with dual 18.4R42 rear tires for superior flotation and traction, and
       'Hours': '6,946',
       'Serial Number': 'RW8100P005100'
     },
-    images: Array.from({ length: 7 }, (_, i) => `/inventory/1996-john-deere-8100/${i + 1}.`),
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/1996-john-deere-8100/${i + 1}.jpg`),
   },
 
   {
@@ -1228,7 +1228,7 @@ MFWD configuration with singles front and rear. The spacious cab features air co
       'Hours': '7,400',
       'Serial Number': 'L06320P426334'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2004-john-deere-6320/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2004-john-deere-6320/${i + 1}.jpg`),
   },
 
   {
@@ -1270,7 +1270,7 @@ The premium cab features A/C, heat, deluxe air-ride seat, buddy seat, radio, Col
       'Hours': '410',
       'Serial Number': '1L06145MPNG151135'
     },
-    images: Array.from({ length: 7 }, (_, i) => `/inventory/2022-john-deere-6145m/${i + 1}.`),
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2022-john-deere-6145m/${i + 1}.jpg`),
   },
 
   {
@@ -1309,7 +1309,7 @@ Equipped with AG Leader integrated auto steer, AG Leader Steer-Command, AG Leade
       'Display': 'AG Leader Compass',
       'Hours': '11,570'
     },
-    images: Array.from({ length: 7 }, (_, i) => `/inventory/2003-challenger-mt835/${i + 1}.`),
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2003-challenger-mt835/${i + 1}.jpg`),
   },
 
   {
@@ -1342,7 +1342,7 @@ This tractor has received significant recent maintenance: remanufactured transmi
       'Recent Service': 'Reman trans, reman alternator, new batteries, windshield, rear tires',
       'Hours': '4,800'
     },
-    images: Array.from({ length: 7 }, (_, i) => `/inventory/2008-john-deere-8530/${i + 1}.`),
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2008-john-deere-8530/${i + 1}.jpg`),
   },
 
   {
@@ -1380,7 +1380,7 @@ Single tire configuration front and rear with approximately 25-30% tread remaini
       'Hours': '10,410',
       'Serial Number': 'RW9400H001049'
     },
-    images: Array.from({ length: 7 }, (_, i) => `/inventory/1997-john-deere-9400/${i + 1}.`),
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/1997-john-deere-9400/${i + 1}.jpg`),
   },
 
   {
@@ -1417,7 +1417,7 @@ IMPORTANT DISCLOSURE: This tractor has a noise in the rear end that has not been
       'Serial Number': '29187RB',
       'Condition': 'AS IS - rear end noise, needs diagnosis'
     },
-    images: Array.from({ length: 7 }, (_, i) => `/inventory/2003-john-deere-9520t/${i + 1}.`),
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2003-john-deere-9520t/${i + 1}.jpg`),
   },
 
   {
@@ -1460,7 +1460,7 @@ Covered by multiple warranties: Limited Basic Warranty until January 2031, Emiss
       'Hours': '3',
       'Serial Number': '1LV3039RJRR409098'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2024-john-deere-3039r/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2024-john-deere-3039r/${i + 1}.jpg`),
   },
 
   {
@@ -1499,7 +1499,7 @@ The factory Grand L60 cab features air conditioning, heat, and AM/FM radio for y
       'Hours': '147',
       'Serial Number': '44284'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2019-kubota-l3560dt/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2019-kubota-l3560dt/${i + 1}.jpg`),
   },
 
   {
@@ -1531,7 +1531,7 @@ This unit from the Parallel Ag Equipment Reduction Sale is equipped with 900/60R
       'Separator Hours': '4,526',
       'Serial Number': 'AGCRS6800EHTV6522'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2014-gleaner-s68/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2014-gleaner-s68/${i + 1}.jpg`),
   },
 
 {
@@ -1564,7 +1564,7 @@ SOLD AS IS, WHERE IS without warranty or guarantee. Notes for guidance only. Pre
       'Hours': '76',
       'Serial Number': 'YMRSV40YHNYJ02196'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2023-yanmar-sv40/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2023-yanmar-sv40/${i + 1}.jpg`),
   },
 
   {
@@ -1595,7 +1595,7 @@ This unit started and drove at the time of inspection. Full operations were not 
       'Hours': '7,273',
       'Serial Number': '1FF350GXEHF812125'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2017-deere-350g-lc/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2017-deere-350g-lc/${i + 1}.jpg`),
   },
 
   {
@@ -1631,7 +1631,7 @@ This unit started and drove at the time of inspection. Full operations were not 
       'Cold Weather Package': 'Yes',
       'Serial Number': 'CAT0305EEH5M11662',
     },
-    images: Array.from({ length: 9 }, (_, i) => `/inventory/2020-caterpillar-305e2-cr/${i + 1}.`),
+    images: Array.from({ length: 9 }, (_, i) => `/inventory/2020-caterpillar-305e2-cr/${i + 1}.jpg`),
   },
 
   {
@@ -1664,7 +1664,7 @@ The rubber track undercarriage provides excellent flotation and minimal ground d
       'Tracks': 'Rubber',
       'Hours': '500'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2020-bobcat-e32i/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2020-bobcat-e32i/${i + 1}.jpg`),
   },
 
   {
@@ -1695,7 +1695,7 @@ The push blade adds significant versatility for backfilling, grading, and site c
       'Hours': '2,931',
       'Serial Number': '1FF075GXTHJ016453'
     },
-    images: Array.from({ length: 7 }, (_, i) => `/inventory/2018-deere-75g/${i + 1}.`),
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2018-deere-75g/${i + 1}.jpg`),
   },
 
   {
@@ -1731,7 +1731,7 @@ This unit has passed a comprehensive inspection. The engine started and ran with
       'Track Condition': 'Grousers ~11 mm',
       'Serial Number': 'B4SF12970'
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2022-bobcat-t62/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2022-bobcat-t62/${i + 1}.jpg`),
   },
 
   {
@@ -1768,7 +1768,7 @@ The enclosed cab with HVAC provides all-weather operator comfort. Selectable joy
       'Hours': '270',
       'Serial Number': '21874'
     },
-    images: Array.from({ length: 5 }, (_, i) => `/inventory/2023-bobcat-s590/${i + 1}.`),
+    images: Array.from({ length: 5 }, (_, i) => `/inventory/2023-bobcat-s590/${i + 1}.jpg`),
   },
 
   {
@@ -1803,7 +1803,7 @@ Condition assessment notes: machine starts and is operable with no visible oil l
       'Condition': 'Good - No leaks or active codes',
       'Serial Number': 'B4SC20330'
     },
-    images: Array.from({ length: 1 }, (_, i) => `/inventory/2023-bobcat-s64/${i + 1}.`),
+    images: Array.from({ length: 1 }, (_, i) => `/inventory/2023-bobcat-s64/${i + 1}.jpg`),
   },
 
 {
@@ -1835,7 +1835,7 @@ Cab amenities include air conditioning and heat for year-round operator comfort.
       'Drive Side': 'Left Hand Drive',
       'Year': '2004',
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2004-international-durastar-4300/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2004-international-durastar-4300/${i + 1}.jpg`),
   },
 
   {
@@ -1868,7 +1868,7 @@ Equipped with a pintle hook and air connections to the rear for trailer towing c
       'Drive Side': 'Left Hand Drive',
       'Year': '2016',
     },
-    images: Array.from({ length: 8 }, (_, i) => `/inventory/2016-international-lonestar/${i + 1}.`),
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2016-international-lonestar/${i + 1}.jpg`),
   }
 ];
 
