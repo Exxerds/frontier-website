@@ -1,4 +1,4 @@
-export type Machine = {
+﻿export type Machine = {
   slug: string;
   category: string;
   categorySlug: string;
@@ -1118,6 +1118,758 @@ ROPS standard or optional factory-installed Ultra Grand Cab with HVAC, rounded g
     },
     images: Array.from({ length: 13 }, (_, i) => `/inventory/2023-kubota-m7060/${i + 1}.jpg`),
   },
+{
+    slug: '2021-john-deere-7r-210',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2021 John Deere 7R 210',
+    price: 43000,
+    year: 2021,
+    make: 'John Deere',
+    model: '7R 210',
+    hours: 3645,
+    serialNumber: '1RW7210SPMC121409',
+    description: `The 2021 John Deere 7R 210 is a high-performance row-crop tractor from John Deere's flagship 7R Series, designed for demanding field work with advanced technology, comfort, and efficiency. With only 3,645 hours, this tractor is in excellent condition and ready to work.
+
+Powered by a John Deere PowerTech PSS 6.8L (415 cu in) 6-cylinder Final Tier 4 diesel engine rated at 210 hp (157 kW). Intelligent Power Management (IPM) provides up to 40 additional horsepower for transport and high PTO/hydraulic demand. Fuel capacity is approximately 122 US gallons (462 L).
+
+The e23 PowerShift transmission delivers 23 forward and 11 reverse speeds with Efficiency Manager for automatic RPM and gear optimization. The closed-center PFC hydraulic system delivers 60 gpm (227 L/min) with 4 rear electro-hydraulic SCVs. Category 3/3N rear 3-point hitch with electronic draft sensing. Independent rear PTO at 1000 RPM. Standard MFWD. 480/80R46 rear tires with 20 front weights.
+
+The CommandView III Cab features Generation 4 CommandCenter display, CommandARM console, air-ride seat, and comprehensive LED lighting. Full John Deere Precision Ag integration with AutoTrac, JDLink Connect telematics, and ISOBUS compatibility.`,
+    specs: {
+      'Engine': 'John Deere PowerTech PSS 6.8L 6-cyl FT4',
+      'Rated Power': '210 hp (157 kW)',
+      'IPM Boost': '+40 hp transport/PTO',
+      'Fuel Capacity': '122 gal (462 L)',
+      'Transmission': 'e23 PowerShift 23F/11R',
+      'Hydraulic Flow': '60 gpm (227 L/min)',
+      'SCVs': '4 rear electro-hydraulic',
+      'PTO Speed': '1000 RPM',
+      'Drive': 'MFWD',
+      'Rear Tires': '480/80R46',
+      'Front Weights': '20',
+      'Hours': '3,645',
+      'Serial Number': '1RW7210SPMC121409'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2021-john-deere-7r-210/${i + 1}.`),
+  },
+
+  {
+    slug: '1996-john-deere-8100',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '1996 John Deere 8100',
+    price: 47000,
+    year: 1996,
+    make: 'John Deere',
+    model: '8100',
+    hours: 6946,
+    serialNumber: 'RW8100P005100',
+    description: `The 1996 John Deere 8100 is a legendary row-crop tractor from John Deere's 8000 Series, known for exceptional reliability, power, and operator comfort. This well-maintained unit comes with dual rear wheels and a full powershift transmission.
+
+Powered by a John Deere PowerTech 8.1L (496 cu in) 6-cylinder turbocharged diesel engine rated at 180 hp (134 kW) with strong torque reserve. The 8000 Series was one of the first to introduce electronic engine management for improved fuel efficiency and throttle response. Fuel capacity is approximately 135 US gallons (511 L).
+
+Equipped with a 16-speed PowerShift transmission (16 forward, 4 reverse) providing smooth on-the-go shifting without clutching. MFWD (Mechanical Front Wheel Drive) for excellent traction in challenging conditions.
+
+The closed-center PFC hydraulic system delivers 30 gpm (114 L/min) with 4 rear SCVs. Category 3/3N rear 3-point hitch with electronic draft sensing and quick hitch compatibility. Rear lift capacity approximately 10,400 lbs (4,717 kg). Shiftable 540/1000 RPM independent PTO.
+
+Configured with dual 18.4R42 rear tires for superior flotation and traction, and 14.9R30 front tires. The Sound-Gard cab features AM/FM stereo radio, climate control, and excellent visibility.`,
+    specs: {
+      'Engine': 'John Deere PowerTech 8.1L 6-cyl Turbo',
+      'Engine Power': '180 hp (134 kW)',
+      'Fuel Capacity': '135 gal (511 L)',
+      'Transmission': '16-spd PowerShift',
+      'Hydraulic Flow': '30 gpm (114 L/min)',
+      'SCVs': '4 rear mechanical',
+      'Rear Lift': '10,400 lbs (4,717 kg)',
+      'PTO Speed': '540/1000 RPM (shiftable)',
+      'Drive': 'MFWD',
+      'Rear Tires': '18.4R42 Duals',
+      'Front Tires': '14.9R30 Singles',
+      'Quick Hitch': 'Yes',
+      'Hours': '6,946',
+      'Serial Number': 'RW8100P005100'
+    },
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/1996-john-deere-8100/${i + 1}.`),
+  },
+
+  {
+    slug: '2004-john-deere-6320',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2004 John Deere 6320',
+    price: 19700,
+    year: 2004,
+    make: 'John Deere',
+    model: '6320',
+    hours: 7400,
+    serialNumber: 'L06320P426334',
+    description: `The John Deere 6320 is a versatile and reliable utility tractor from the 6020 Series, designed for a wide range of tasks on mid-sized farms, livestock operations, hay production, and general property maintenance. This unit has benefited from a complete engine overhaul just 500 hours ago, ensuring many more years of dependable service.
+
+Powered by a John Deere PowerTech 4.5L (276 cu in) 4-cylinder turbocharged diesel engine rated at 100 hp (75 kW). The recent complete engine overhaul (500 hours ago) effectively resets the engine's service life, making this an exceptional value.
+
+Equipped with the premium IVT (Infinitely Variable Transmission) providing stepless speed control from 0.03 mph to 25 mph (40 kph). This transmission automatically optimizes engine RPM for the load, delivering both fuel efficiency and effortless operation.
+
+The open-center hydraulic system delivers approximately 16 gpm (60 L/min) with 2 rear remote SCVs and 3rd function hydraulics for loader implements. Category II rear 3-point hitch. Independent rear PTO at 540/1000 RPM.
+
+MFWD configuration with singles front and rear. The spacious cab features air conditioning, heat, and AM/FM radio. Loader-ready with mid-mount hydraulic connections. This 25 MPH-capable IVT tractor is perfect for haying operations, loader work, and general utility tasks.`,
+    specs: {
+      'Engine': 'John Deere PowerTech 4.5L 4-cyl Turbo',
+      'Engine Power': '100 hp (75 kW)',
+      'Transmission': 'IVT (Infinitely Variable)',
+      'Max Speed': '25 mph (40 kph)',
+      'Hydraulic Flow': '~16 gpm (60 L/min)',
+      'SCVs': '2 rear remotes',
+      '3rd Function': 'Yes (loader-ready)',
+      'PTO Speed': '540/1000 RPM',
+      'Drive': 'MFWD',
+      'Cab': 'Yes (A/C, Heat, Radio)',
+      'Engine Overhaul': 'Yes - 500 hours ago',
+      'Hours': '7,400',
+      'Serial Number': 'L06320P426334'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2004-john-deere-6320/${i + 1}.`),
+  },
+
+  {
+    slug: '2022-john-deere-6145m',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2022 John Deere 6145M',
+    price: 63500,
+    year: 2022,
+    make: 'John Deere',
+    model: '6145M',
+    hours: 410,
+    serialNumber: '1L06145MPNG151135',
+    description: `The 2022 John Deere 6145M is a premium utility tractor from the 6M Series, offering exceptional power, advanced features, and low operating hours. With only 410 hours and a JD 640R self-leveling loader included, this tractor is in outstanding condition and perfectly set up for haying and general farm operations.
+
+Powered by a John Deere PowerTech EWX 4.5L 4-cylinder turbocharged diesel engine meeting Final Tier 4 (FT4) emissions. Rated engine power is 145 hp (108 kW) with a maximum of 161 hp (120 kW). PTO horsepower is 116 hp (87 kW). John Deere emissions warranty valid until September 2027 (3,000 hour limit).
+
+Equipped with the premium 24/24 PowerQuad transmission with Power Reverser for smooth clutchless direction changes. The factory joystick integrates shift controls, direction control, and 3rd function hydraulics for the loader.
+
+The hydraulic system delivers 114 L/min (30 gpm) with 3 deluxe rear hydraulic SCVs plus mid-mount connections for the loader. The JD 640R self-leveling loader features a Global Carrier with an 8-foot heavy-duty quick-attach bucket, plumbed for grapple operation.
+
+540/1000 RPM independent PTO. Deluxe telescopic 3-point arms with stabilizer blocks. Mitas radial tires: 480/80R42 rear at 90%, 16.9R28 front at 90%. Two sets of rear wheel weights plus deluxe break-away front fenders.
+
+The premium cab features A/C, heat, deluxe air-ride seat, buddy seat, radio, Cold Weather Package I, and dual entry doors. Was serviced at 401 hours.`,
+    specs: {
+      'Engine': 'John Deere PowerTech EWX 4.5L 4-cyl FT4',
+      'Engine Power': '145 hp (108 kW)',
+      'Max Power': '161 hp (120 kW)',
+      'PTO Power': '116 hp (87 kW)',
+      'Transmission': '24/24 PowerQuad w/ Power Reverser',
+      'Hydraulic Flow': '114 L/min (30 gpm)',
+      'SCVs': '3 deluxe rear + mid-mount',
+      'Loader': 'JD 640R Self-Leveling w/ Global Carrier',
+      'Bucket': "8' HD Quick-Attach",
+      'PTO Speed': '540/1000 RPM',
+      'Drive': 'MFWD',
+      'Rear Tires': '480/80R42 @ 90%',
+      'Front Tires': '16.9R28 @ 90%',
+      'Hours': '410',
+      'Serial Number': '1L06145MPNG151135'
+    },
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2022-john-deere-6145m/${i + 1}.`),
+  },
+
+  {
+    slug: '2003-challenger-mt835',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2003 Challenger MT835',
+    price: 38000,
+    year: 2003,
+    make: 'Challenger',
+    model: 'MT835',
+    hours: 11570,
+        description: `The 2003 Challenger MT835 is a powerful and versatile track tractor featuring the rare and highly sought-after 3-point hitch and PTO configuration. A hard-to-find setup for a large-frame CAT 2-track tractor capable of handling every task on a corn/soybean operation.
+
+Powered by a CAT C12 12.0L 6-cylinder turbocharged diesel engine (S/N: JAC00275) rated at 340 engine HP, 320 PTO HP, and 300 drawbar HP. This engine is renowned for its legendary durability and strong torque curve.
+
+Equipped with a 16-speed full power shift transmission (13 forward, 3 reverse) with smooth on-the-go shifting. Maximum travel speed is 24 mph. The 36-inch Mobil-trac tracks provide exceptional flotation, reduced compaction, and excellent traction.
+
+Features a steerable 3-point hitch with quick hitch and CAT IV drawbar. 1000 RPM PTO with adapter for big 1000 shaft. The hydraulic system delivers 43.5 gpm with 4 SCVs plus power beyond. ISOBUS implement plug for seamless implement communication.
+
+Equipped with AG Leader integrated auto steer, AG Leader Steer-Command, AG Leader 6000 receiver, and AG Leader Compass display. High-output LED lights. New A/C system installed. The cab features air conditioning, heat, radio, and comprehensive monitoring displays.`,
+    specs: {
+      'Engine': 'CAT C12 12.0L 6-cyl Turbo Diesel',
+      'Engine Power': '340 hp (254 kW)',
+      'PTO Power': '320 hp (239 kW)',
+      'Drawbar Power': '300 hp (224 kW)',
+      'Engine S/N': 'JAC00275',
+      'Transmission': '16-spd Full Powershift (13F/3R)',
+      'Max Speed': '24 mph (39 kph)',
+      'Hydraulic Flow': '43.5 gpm',
+      'SCVs': '4 + Power Beyond',
+      'Tracks': '36" Mobil-trac',
+      'PTO Speed': '1000 RPM (big shaft w/ adapter)',
+      '3-Point Hitch': 'Yes (steerable) w/ Quick Hitch',
+      'Guidance': 'AG Leader Integrated Auto Steer',
+      'Display': 'AG Leader Compass',
+      'Hours': '11,570'
+    },
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2003-challenger-mt835/${i + 1}.`),
+  },
+
+  {
+    slug: '2008-john-deere-8530',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2008 John Deere 8530',
+    price: 41500,
+    year: 2008,
+    make: 'John Deere',
+    model: '8530',
+    hours: 4800,
+        description: `The 2008 John Deere 8530 is a powerful row-crop tractor from the renowned 8030 Series, designed for heavy tillage, planting, and demanding field operations. With the premium IVT transmission and ILS front suspension, this tractor delivers both productivity and operator comfort.
+
+Powered by a John Deere PowerTech Plus 9.0L (549 cu in) 6-cylinder turbocharged diesel engine rated at 330 hp (246 kW) with exceptional torque characteristics. The 8030 Series features advanced electronic engine management with common rail fuel injection.
+
+Equipped with the premium IVT (Infinitely Variable Transmission) providing seamless stepless speed control from 0.03 mph to 31 mph. The Independent Link Suspension (ILS) front axle dramatically improves ride quality, traction, and control at higher speeds. Combined with MFWD, this setup delivers excellent performance in all conditions.
+
+Category 3/3N rear 3-point hitch with electronic draft sensing. Independent rear PTO. New rear tires with row crop tires and front duals available (duals not included).
+
+This tractor has received significant recent maintenance: remanufactured transmission, remanufactured alternator, new batteries, and a new windshield. Delivery available. Runs out nice and continues to be used regularly on the farm.`,
+    specs: {
+      'Engine': 'John Deere PowerTech Plus 9.0L 6-cyl',
+      'Engine Power': '330 hp (246 kW)',
+      'Transmission': 'IVT (Infinitely Variable)',
+      'Front Suspension': 'ILS (Independent Link Suspension)',
+      'Drive': 'MFWD',
+      'PTO': 'Yes (independent rear)',
+      '3-Point Hitch': 'Category 3/3N',
+      'Recent Service': 'Reman trans, reman alternator, new batteries, windshield, rear tires',
+      'Hours': '4,800'
+    },
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2008-john-deere-8530/${i + 1}.`),
+  },
+
+  {
+    slug: '1997-john-deere-9400',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '1997 John Deere 9400',
+    price: 27500,
+    year: 1997,
+    make: 'John Deere',
+    model: '9400',
+    hours: 10410,
+    serialNumber: 'RW9400H001049',
+    description: `The 1997 John Deere 9400 is a legendary 4WD articulated tractor that has been an agricultural workhorse all its life. With a massive 425 HP engine and 24-speed transmission, it's built for the heaviest tillage and fieldwork. Recently put out 1,400+ acres in winter work and handled summer disking.
+
+Powered by a John Deere 12.5L (763 cu in) 6-cylinder turbocharged and aftercooled diesel engine producing 425 hp (317 kW). Engine received a rebuild approximately 4-5 years ago. Clutches were also replaced in recent years. New muffler and breather box installed 2 years ago.
+
+Equipped with the 24-speed PowerSync transmission providing excellent speed selection for varied field conditions and transport. Full 4WD articulated steering delivers exceptional traction. The articulated frame bends in the middle, keeping all four wheels on the ground.
+
+Features air conditioning, heat, and AM/FM radio in the cab. ATU (AutoTrac Universal) with harnessing for AutoTrac automated steering. Built-in switch and harness for a John Deere rate controller. Paint is in excellent overall condition.
+
+Single tire configuration front and rear with approximately 25-30% tread remaining. A reliable and powerful 4WD tractor perfect for primary tillage, deep ripping, and pulling large air seeders.`,
+    specs: {
+      'Engine': 'John Deere 12.5L 6-cyl Turbo/Aftercooled',
+      'Engine Power': '425 hp (317 kW)',
+      'Fuel Capacity': '~200 gal (757 L)',
+      'Transmission': '24-spd PowerSync',
+      'Drive': '4WD Articulated',
+      'Cab': 'Yes (A/C, Heat, Radio)',
+      'Guidance': 'AutoTrac Ready (ATU harnessed)',
+      'Rate Control': 'JD harness/switch installed',
+      'Engine Rebuild': '~4-5 years ago',
+      'Recent Service': 'New muffler & breather box, clutches replaced',
+      'Tire Remaining': '25-30%',
+      'Hours': '10,410',
+      'Serial Number': 'RW9400H001049'
+    },
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/1997-john-deere-9400/${i + 1}.`),
+  },
+
+  {
+    slug: '2003-john-deere-9520t',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2003 John Deere 9520T',
+    price: 24800,
+    year: 2003,
+    make: 'John Deere',
+    model: '9520T',
+    hours: 7870,
+    serialNumber: '29187RB',
+    description: `The 2003 John Deere 9520T is a massive track tractor featuring the desirable PTO option. A configuration that combines the flotation and traction benefits of tracks with the versatility of PTO-driven implements. Comes equipped with John Deere precision agriculture technology including a StarFire 3000 receiver and 2600 monitor with AutoTrac activation.
+
+Powered by a John Deere PowerTech 12.5L (763 cu in) 6-cylinder turbocharged diesel engine rated at 450 hp (336 kW). This immense power, combined with 36-inch Camso tracks, makes the 9520T an unstoppable force for primary tillage, deep ripping, and pulling the largest air seeders.
+
+Equipped with a full Powershift transmission. Features 4 rear remote hydraulic SCVs, wide-swing agricultural drawbar, and hammerstrap. The PTO system adds exceptional versatility rarely found on large-frame track tractors.
+
+Technology package includes John Deere StarFire 3000 GPS receiver and 2600 monitor with AutoTrac activation. Cab features climate control, buddy seat, and comprehensive lighting package.
+
+IMPORTANT DISCLOSURE: This tractor has a noise in the rear end that has not been diagnosed. Being sold AS IS, WHERE IS. Quick and easy onsite low fixed-rate financing available. Trucking available anywhere.`,
+    specs: {
+      'Engine': 'John Deere PowerTech 12.5L 6-cyl Turbo',
+      'Engine Power': '450 hp (336 kW)',
+      'Transmission': 'Full Powershift',
+      'Drive': 'Track (36" Camso)',
+      'SCVs': '4 rear remotes',
+      'PTO': 'Yes - rear PTO',
+      'Guidance': 'StarFire 3000 + 2600 Monitor w/ AutoTrac',
+      'Drawbar': 'Wide-swing ag + hammerstrap',
+      'Cab': 'Climate control, buddy seat',
+      'Hours': '7,870',
+      'Serial Number': '29187RB',
+      'Condition': 'AS IS - rear end noise, needs diagnosis'
+    },
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2003-john-deere-9520t/${i + 1}.`),
+  },
+
+  {
+    slug: '2024-john-deere-3039r',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2024 John Deere 3039R',
+    price: 22500,
+    year: 2024,
+    make: 'John Deere',
+    model: '3039R',
+    hours: 3,
+    serialNumber: '1LV3039RJRR409098',
+    description: `Like New! The 2024 John Deere 3039R is a premium compact utility tractor with only 3 hours on the meter. Comes equipped with a John Deere 320R quick-attach loader and factory cab, making it the perfect machine for small farms, acreages, hobby farms, and commercial landscaping.
+
+Powered by a John Deere 3-cylinder turbocharged diesel engine meeting Final Tier 4 emissions, producing 38 hp (28 kW). Despite its compact size, the turbocharger ensures strong torque and responsive performance for loader work, mowing, and snow removal.
+
+The 3-range hydrostatic transmission provides smooth, clutchless speed control ideal for loader work and precision maneuvering. Features include Cruise Control, Auto Throttle Advance, Load Match, Speed Match, and Motion Match. MFWD (4WD) with differential lock for maximum traction.
+
+The 320R quick-attach loader comes with a 62-inch John Deere quick-attach bucket and grill guard. Independent 540 RPM rear PTO and Category I 3-point hitch with top link. Front tire size: 25x8.50-14 (100%), Rear: 15-19.5 (100%).
+
+The factory-installed deluxe cab features heating and air conditioning, suspension seat, LED front work lights, windshield wiper, AM/FM/WB stereo with AUX/Bluetooth, and tilt steering.
+
+Covered by multiple warranties: Limited Basic Warranty until January 2031, Emissions Warranty until January 2030, and Basic Warranty until January 2027. An exceptional opportunity to own a practically new premium compact tractor.`,
+    specs: {
+      'Engine': 'John Deere 3-cyl Turbo Diesel FT4',
+      'Engine Power': '38 hp (28 kW)',
+      'Transmission': '3-Range Hydrostatic (HST)',
+      'Drive': 'MFWD (4WD)',
+      'PTO Speed': '540 RPM',
+      '3-Point Hitch': 'Category I',
+      'Loader': 'JD 320R Quick-Attach',
+      'Bucket': '62" JD Quick-Attach',
+      'Front Tires': '25x8.50-14 @ 100%',
+      'Rear Tires': '15-19.5 @ 100%',
+      'Cab': 'Factory - A/C, Heat, Stereo/Bluetooth',
+      'Warranty Basic': 'Until Jan 2027',
+      'Warranty Emissions': 'Until Jan 2030',
+      'Warranty Limited': 'Until Jan 2031',
+      'Hours': '3',
+      'Serial Number': '1LV3039RJRR409098'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2024-john-deere-3039r/${i + 1}.`),
+  },
+
+  {
+    slug: '2019-kubota-l3560dt',
+    category: 'Tractors',
+    categorySlug: 'tractors',
+    title: '2019 Kubota L3560DT',
+    price: 21700,
+    year: 2019,
+    make: 'Kubota',
+    model: 'L3560DT',
+    hours: 147,
+    serialNumber: '44284',
+    description: `Like New! The 2019 Kubota L3560DT Limited Edition is a premium compact tractor-loader-backhoe package with only 147 one-owner hours. This rare Limited Edition model combines the versatility of a front loader and backhoe with Kubota's legendary reliability and the comfort of the Grand L60 Series cab.
+
+Powered by a Kubota 3-cylinder turbocharged diesel engine producing 35 hp (26 kW) with Common Rail System for precise fuel metering. Meets Tier 4 Final emissions standards while maintaining excellent fuel efficiency.
+
+The 3-range HST (Hydrostatic Transmission) provides smooth, clutchless speed control in Low, Medium, and High ranges. MFWD (4WD) with differential lock ensures maximum traction in all conditions.
+
+Equipped with the Kubota LA805 front loader with quick-attach bucket system, and a Kubota backhoe for digging, trenching, and foundation work. Category I 3-point hitch and 540 RPM rear PTO. One rear remote hydraulic valve. Ag tires in excellent condition: 85% front, 95% rear.
+
+The factory Grand L60 cab features air conditioning, heat, and AM/FM radio for year-round comfort. Ergonomic controls, excellent visibility, and low noise levels. A turn-key compact tractor package perfect for small farms, landscaping, construction support, and property maintenance.`,
+    specs: {
+      'Engine': 'Kubota 3-cyl Turbo Diesel Tier 4 Final',
+      'Engine Power': '35 hp (26 kW)',
+      'Transmission': '3-Range HST (Hydrostatic)',
+      'Drive': 'MFWD (4WD)',
+      'PTO Speed': '540 RPM',
+      '3-Point Hitch': 'Category I',
+      'Loader': 'Kubota LA805 Quick-Attach',
+      'Backhoe': 'Kubota Backhoe',
+      'SCVs': '1 rear remote',
+      'Front Tires': 'Ag - 85% remaining',
+      'Rear Tires': 'Ag - 95% remaining',
+      'Cab': 'Factory Grand L60 - A/C, Heat, Radio',
+      'Hours': '147',
+      'Serial Number': '44284'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2019-kubota-l3560dt/${i + 1}.`),
+  },
+
+  {
+    slug: '2014-gleaner-s68',
+    category: 'Combine Harvesters',
+    categorySlug: 'combine-harvesters',
+    title: '2014 Gleaner S68',
+    price: 45500,
+    year: 2014,
+    make: 'Gleaner',
+    model: 'S68',
+    hours: 6545,
+    separatorHours: 4526,
+    serialNumber: 'AGCRS6800EHTV6522',
+    description: `The 2014 Gleaner S68 is a Class 8 transverse rotary combine harvester known for its unique design philosophy emphasizing simplicity, light weight, and fuel efficiency. With 6,545 engine hours and 4,526 separator hours, this machine is ready for the field.
+
+Powered by an AGCO Power 8.4L (513 cu in) 7-cylinder turbocharged diesel engine. Gleaner's proprietary transverse rotor design runs perpendicular to the direction of travel, providing a natural crop flow with fewer moving parts than conventional axial designs. This results in less horsepower demand, lower fuel consumption, and reduced grain damage.
+
+The S68 features Gleaner's transverse rotary processor with a 30-inch diameter rotor and natural-flow design that processes crop gently and efficiently. The large grain tank and fast unloading rate minimize downtime during harvest. The cleaning system is designed for high capacity with excellent sample quality.
+
+This unit from the Parallel Ag Equipment Reduction Sale is equipped with 900/60R32 front tires and 580/70R26 rear tires. The cab features heating, air conditioning, and radio. Gleaner combines are prized by operators who value the lighter weight (less compaction), simpler maintenance, and exceptional fuel economy.`,
+    specs: {
+      'Engine': 'AGCO Power 8.4L 7-cyl Turbo Diesel',
+      'Rotor Type': 'Transverse Rotary (Gleaner)',
+      'Front Tires': '900/60R32',
+      'Rear Tires': '580/70R26',
+      'Cab': 'Yes (Heat, A/C, Radio)',
+      'Engine Hours': '6,545',
+      'Separator Hours': '4,526',
+      'Serial Number': 'AGCRS6800EHTV6522'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2014-gleaner-s68/${i + 1}.`),
+  },
+
+{
+    slug: '2023-yanmar-sv40',
+    category: 'Excavators',
+    categorySlug: 'excavators',
+    title: '2023 Yanmar SV40',
+    price: 24300,
+    year: 2023,
+    make: 'Yanmar',
+    model: 'SV40',
+    hours: 76,
+    serialNumber: 'YMRSV40YHNYJ02196',
+    description: `The 2023 Yanmar SV40 is a compact mini excavator designed for tight-access jobs with impressive power and efficiency. With only 76 hours, this machine is practically new and ready for immediate work.
+
+Powered by a Yanmar 4TNV88C-PBV1 diesel engine producing 39 HP (29 kW). Yanmar's proprietary engine technology ensures excellent fuel efficiency, low emissions, and legendary reliability. The engine is Tier 4 Final compliant.
+
+Compact dimensions make this excavator ideal for urban construction, landscaping, utility work, and confined-space excavation. Length: 4.81 m (15.8 ft), Width: 1.74 m (5.7 ft), Height: 2.54 m (8.3 ft). The zero or minimal tail swing design allows operation close to walls and obstacles without risk of damage.
+
+This unit started on site with full operations not tested. Features an open ROPS (Roll-Over Protective Structure). Yanmar's hydraulic system delivers smooth, precise control for digging, grading, and attachment operation.
+
+SOLD AS IS, WHERE IS without warranty or guarantee. Notes for guidance only. Pre-purchase inspections with appointment are encouraged and recommended. Items subject to late storage fees and/or relocation at buyer's expense if not removed within 10 banking days of sale date. Locations are subject to load-out fees per equipment. 24-hour notice prior to collecting purchase is required. Buyer must present gate pass to location.`,
+    specs: {
+      'Engine': 'Yanmar 4TNV88C-PBV1 4-cyl Diesel',
+      'Engine Power': '39 HP (29 kW)',
+      'ROPS': 'Open',
+      'Length': '4.81 m (15.8 ft)',
+      'Width': '1.74 m (5.7 ft)',
+      'Height': '2.54 m (8.3 ft)',
+      'Hours': '76',
+      'Serial Number': 'YMRSV40YHNYJ02196'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2023-yanmar-sv40/${i + 1}.`),
+  },
+
+  {
+    slug: '2017-deere-350g-lc',
+    category: 'Excavators',
+    categorySlug: 'excavators',
+    title: '2017 Deere 350G LC',
+    price: 46500,
+    year: 2017,
+    make: 'Deere',
+    model: '350G LC',
+    hours: 7273,
+    serialNumber: '1FF350GXEHF812125',
+    description: `The 2017 Deere 350G LC is a heavy-duty production-class excavator built for demanding earthmoving, demolition, and large-scale construction projects. Powered by a John Deere PowerTech 9.0L diesel engine producing 300 HP (224 kW), this machine delivers exceptional digging force and lift capacity.
+
+Equipped with a 36-inch bucket with 24-foot maximum dig depth, making it ideal for deep excavation, trenching, and mass earthmoving. The LC (Long Carriage) undercarriage provides excellent stability and lift capacity for heavy lifting applications. Counterweight included for optimal balance.
+
+The enclosed ROPS cab provides operator comfort and safety in all conditions. John Deere's advanced hydraulic system delivers smooth, responsive control with excellent multi-function capability. Auxiliary hydraulics ready for attachments including hammers, shears, and grapples.
+
+This unit started and drove at the time of inspection. Full operations were not tested. Sold AS IS, WHERE IS. A third-party inspection report detailing all wear and tear items is available. All buyers will be required to verify their identity through a third-party service prior to invoicing.`,
+    specs: {
+      'Engine': 'John Deere PowerTech 9.0L',
+      'Engine Power': '300 HP (224 kW)',
+      'Dig Depth': '24 ft (7.3 m)',
+      'Bucket Width': '36 in',
+      'ROPS': 'Enclosed',
+      'Counterweight': 'Yes',
+      'Hours': '7,273',
+      'Serial Number': '1FF350GXEHF812125'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2017-deere-350g-lc/${i + 1}.`),
+  },
+
+  {
+    slug: '2020-caterpillar-305e2-cr',
+    category: 'Excavators',
+    categorySlug: 'excavators',
+    title: '2020 Caterpillar 305E2 CR',
+    price: 27500,
+    year: 2020,
+    make: 'Caterpillar',
+    model: '305E2 CR',
+    serialNumber: 'CAT0305EEH5M11662',
+    description: `The 2020 Caterpillar 305E2 CR is a compact radius mini excavator designed for work in confined areas where maneuverability and low ground disturbance are critical. The CR (Compact Radius) design allows the machine to rotate within its own track width, making it ideal for urban construction, road work, and landscaping.
+
+Powered by a Caterpillar C2.4 4-cylinder diesel engine producing 40 HP (30 kW). This engine meets Tier 4 Final emissions and delivers reliable performance with excellent fuel efficiency.
+
+Equipped with a 36-inch bucket, hydraulic thumb, and quick attach system for fast implement changes. The hydraulic thumb greatly enhances material handling capability for demolition, brush clearing, and debris management. Auxiliary hydraulics plumbed for attachments. Backfill blade standard.
+
+Features an enclosed ROPS cab for all-weather operation. Cold weather package included. The tracked undercarriage provides excellent flotation and traction on soft ground while minimizing surface damage.
+
+This unit started and drove at the time of inspection. Full operations were not tested. Sold AS IS, WHERE IS. A third-party inspection report is available.`,
+    specs: {
+      'Engine': 'Caterpillar C2.4 4-cyl Diesel',
+      'Engine Power': '40 HP (30 kW)',
+      'Bucket Width': '36 in',
+      'Dig Depth': '1 ft 10 in',
+      'Drive': 'Track',
+      'ROPS': 'Enclosed',
+      'Quick Attach': 'Yes',
+      'Hydraulic Thumb': 'Yes',
+      'Auxiliary Hydraulics': 'Yes',
+      'Backfill Blade': 'Yes',
+      'Cold Weather Package': 'Yes',
+      'Serial Number': 'CAT0305EEH5M11662',
+    },
+    images: Array.from({ length: 9 }, (_, i) => `/inventory/2020-caterpillar-305e2-cr/${i + 1}.`),
+  },
+
+  {
+    slug: '2020-bobcat-e32i',
+    category: 'Excavators',
+    categorySlug: 'excavators',
+    title: '2020 Bobcat E32i',
+    price: 21000,
+    year: 2020,
+    make: 'Bobcat',
+    model: 'E32i',
+    hours: 500,
+    description: `The 2020 Bobcat E32i is a premium compact excavator with only 500 hours. This well-equipped machine features a climate-controlled enclosed cab, hydraulic thumb, and manual Xchange coupler system. The standard arm configuration provides a 10-foot 2-inch max dig depth.
+
+Powered by a reliable Kubota diesel engine producing 25 HP (18.6 kW). Bobcat compact excavators are renowned for their durability, smooth hydraulic control, and excellent operator comfort.
+
+Weighing approximately 7,183 lbs plus thumb, this machine is easily transportable behind a pickup truck. The 18-inch bucket is included. Features include: pattern changer, hydraulic thumb for enhanced material handling, auxiliary hydraulics, and enclosed cab with heat and air conditioning for year-round comfort.
+
+The rubber track undercarriage provides excellent flotation and minimal ground disturbance, ideal for landscaping, utility work, and residential construction. The minimal tail swing design allows operation in tight spaces. Financing available with approved credit. Trade-in machines considered. Craig Equipment: shipping nationwide available.`,
+    specs: {
+      'Engine': 'Kubota Diesel',
+      'Engine Power': '25 HP (18.6 kW)',
+      'Dig Depth': '10 ft 2 in (3.1 m)',
+      'Operating Weight': '~7,183 lbs',
+      'Bucket': '18 in included',
+      'Coupler': 'Manual Xchange',
+      'Thumb': 'Hydraulic',
+      'Auxiliary Hydraulics': 'Yes',
+      'ROPS': 'Enclosed (A/C, Heat)',
+      'Tracks': 'Rubber',
+      'Hours': '500'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2020-bobcat-e32i/${i + 1}.`),
+  },
+
+  {
+    slug: '2018-deere-75g',
+    category: 'Excavators',
+    categorySlug: 'excavators',
+    title: '2018 Deere 75G',
+    price: 26500,
+    year: 2018,
+    make: 'Deere',
+    model: '75G',
+    hours: 2931,
+    serialNumber: '1FF075GXTHJ016453',
+    description: `The 2018 Deere 75G is a mid-size compact excavator offering a perfect balance of power, reach, and maneuverability for a wide range of construction and utility applications. With 2,931 hours, this machine has plenty of productive life remaining.
+
+Equipped with auxiliary hydraulics, a 23-inch bucket, and push blade. The enclosed cab provides operator comfort and protection in all conditions. Rubber tracks minimize ground disturbance and provide excellent traction on varied terrain.
+
+John Deere's G-Series excavators are known for their smooth hydraulic response, excellent digging forces, and comfortable operator stations. The 75G size class is one of the most versatile in the compact excavator lineup — powerful enough for productive digging yet compact enough for easy transport.
+
+The push blade adds significant versatility for backfilling, grading, and site cleanup. Auxiliary hydraulics allow operation of attachments including hydraulic breakers, augers, and compactors. Contact for more information and inspection arrangements.`,
+    specs: {
+      'Engine': 'John Deere Diesel',
+      'Bucket Width': '23 in',
+      'Auxiliary Hydraulics': 'Yes',
+      'Push Blade': 'Yes',
+      'Tracks': 'Rubber',
+      'ROPS': 'Enclosed Cab',
+      'Hours': '2,931',
+      'Serial Number': '1FF075GXTHJ016453'
+    },
+    images: Array.from({ length: 7 }, (_, i) => `/inventory/2018-deere-75g/${i + 1}.`),
+  },
+
+  {
+    slug: '2022-bobcat-t62',
+    category: 'Compact Track Loaders',
+    categorySlug: 'compact-track-loaders',
+    title: '2022 Bobcat T62 R-Series',
+    price: 29000,
+    year: 2022,
+    make: 'Bobcat',
+    model: 'T62 R-Series',
+    hours: 469,
+    serialNumber: 'B4SF12970',
+    description: `The 2022 Bobcat T62 R-Series is a premium compact track loader with only 469 hours, designed for comfort and efficiency in demanding applications. This two-speed machine combines the power and versatility of a skid-steer with the flotation and traction of a tracked undercarriage.
+
+The enclosed cab with HVAC ensures year-round operator comfort. Features selectable joystick controls, suspension seat, and LCD display with machine monitoring. A backup camera enhances safety and visibility during operation.
+
+Advanced features include hydraulic bucket positioning, automatic ride control, auto-idle functionality, Power Bob-Tach attachment system, sound suppression materials, deluxe instrumentation with keyless start, and high-flow hydraulics for increased attachment capabilities. Heavy-duty hydraulic filters and roller suspension deliver a smoother ride and extended component life. LED lighting enhances visibility in low-light conditions.
+
+This unit has passed a comprehensive inspection. The engine started and ran with only minor blow-by. No dripping oil, fuel, or cooling system leaks were found. The drivetrain, hydraulic system, and main chassis components were all operational. Exterior lights, travel alarm, horn, seat belts, and safety lockout all operational. Track grousers measure approximately 11 mm. Quick coupler operational. Oil analysis available (May 2025). Located in Blue Springs, MO.`,
+    specs: {
+      'Engine': 'Bobcat Diesel (2022 EPA)',
+      'Hours': '469',
+      'Drive': 'Two-Speed Track',
+      'Operating Weight': '~8,400 lbs',
+      'Cab': 'Enclosed w/ HVAC',
+      'High Flow Hydraulics': 'Yes',
+      'Ride Control': 'Automatic',
+      'Attachment System': 'Power Bob-Tach',
+      'Quick Coupler': 'Yes — Operational',
+      'Keyless Start': 'Yes',
+      'Backup Camera': 'Yes',
+      'Track Condition': 'Grousers ~11 mm',
+      'Serial Number': 'B4SF12970'
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2022-bobcat-t62/${i + 1}.`),
+  },
+
+  {
+    slug: '2023-bobcat-s590',
+    category: 'Skid Steer Loaders',
+    categorySlug: 'skid-steer-loaders',
+    title: '2023 Bobcat S590',
+    price: 18000,
+    year: 2023,
+    make: 'Bobcat',
+    model: 'S590',
+    hours: 270,
+    serialNumber: '21874',
+    description: `The 2023 Bobcat S590 is a powerful mid-frame skid-steer loader with only 270 operating hours. This machine is being sold from a top-tier rental company, ensuring professional maintenance and care. All remaining factory warranties are transferable to the new owner.
+
+Powered by a Bobcat diesel engine producing 66 HP (49 kW). The S590 delivers an impressive rated operating capacity of 2,100 lbs (950 kg) with a tipping load of 4,200 lbs (1,905 kg). Operating weight is 6,480 lbs (2,940 kg). The 17.1 gpm standard-flow hydraulic system operates at 3,500 psi, ensuring responsive, powerful performance with attachments.
+
+Fuel tank capacity is 24.75 gallons (94 L). Maximum travel speed is 7.4 mph (11.9 kph). Dimensions: width with bucket 68 inches (1.73 m), height to bucket hinge pin 119 inches (3.02 m). Engine displacement: 122 cubic inches (2.0 L).
+
+The enclosed cab with HVAC provides all-weather operator comfort. Selectable joystick controls, suspension seat, and LCD display with machine monitoring enhance the operating experience. Features include hydraulic bucket positioning, auto-idle, Power Bob-Tach attachment system, sound suppression, deluxe instrumentation with keyless start, LED lighting, and optional high-flow hydraulics. Located in Sherman, TX.`,
+    specs: {
+      'Engine': 'Bobcat Diesel (122 cu in)',
+      'Engine Power': '66 HP (49 kW)',
+      'Rated Operating Capacity': '2,100 lbs (950 kg)',
+      'Tipping Load': '4,200 lbs (1,905 kg)',
+      'Operating Weight': '6,480 lbs (2,940 kg)',
+      'Hydraulic Flow': '17.1 gpm @ 3,500 psi',
+      'Max Speed': '7.4 mph (11.9 kph)',
+      'Fuel Capacity': '24.75 gal (94 L)',
+      'Width w/ Bucket': '68 in (1.73 m)',
+      'Cab': 'Enclosed w/ HVAC',
+      'Attachment System': 'Power Bob-Tach',
+      'Keyless Start': 'Yes',
+      'Hours': '270',
+      'Serial Number': '21874'
+    },
+    images: Array.from({ length: 5 }, (_, i) => `/inventory/2023-bobcat-s590/${i + 1}.`),
+  },
+
+  {
+    slug: '2023-bobcat-s64',
+    category: 'Skid Steer Loaders',
+    categorySlug: 'skid-steer-loaders',
+    title: '2023 Bobcat S64',
+    price: 25500,
+    year: 2023,
+    make: 'Bobcat',
+    model: 'S64',
+    hours: 381,
+    serialNumber: 'B4SC20330',
+    description: `The 2023 Bobcat S64 is a well-maintained skid-steer loader with only 380 hours of usage, in good overall condition. This machine presents an excellent opportunity for farms, construction companies, and landscaping businesses seeking a reliable, low-hour loader.
+
+Key features include 2-speed travel for faster job site mobility, standard-flow auxiliary hydraulics for attachment operation, and an electric coupler system for quick attachment changes. The enclosed ROPS cab includes air conditioning and heater/defroster for year-round comfort. A Bluetooth radio is integrated for entertainment and communication.
+
+Self-leveling capability helps maintain bucket angle during lifting, reducing spillage and improving operator efficiency. The machine is equipped with a bucket and features beacon lighting for enhanced visibility and safety. Meets Tier 1 compliance and runs on ultra-low sulfur diesel fuel.
+
+Condition assessment notes: machine starts and is operable with no visible oil leaks. Body, frame, and general condition all rated as Good. No logged or active fault codes. Tires are aired up and the machine is drivable. All remaining factory warranties are transferable. Located in Clifton Park, NY.`,
+    specs: {
+      'Engine': 'Bobcat Diesel',
+      'Hours': '381',
+      '2-Speed Travel': 'Yes',
+      'Auxiliary Hydraulics': 'Standard Flow',
+      'Coupler Type': 'Electric',
+      'Self Leveling': 'Yes',
+      'ROPS': 'Enclosed w/ A/C, Heat',
+      'Radio': 'Bluetooth',
+      'Bucket Included': 'Yes',
+      'Beacon': 'Yes',
+      'Condition': 'Good - No leaks or active codes',
+      'Serial Number': 'B4SC20330'
+    },
+    images: Array.from({ length: 1 }, (_, i) => `/inventory/2023-bobcat-s64/${i + 1}.`),
+  },
+
+{
+    slug: '2004-international-durastar-4300',
+    category: 'Trucks',
+    categorySlug: 'trucks',
+    title: '2004 International Durastar 4300',
+    price: 42000,
+    year: 2004,
+    make: 'International',
+    model: 'Durastar 4300',
+            description: `The 2004 International Durastar 4300 is a reliable medium-duty truck configured with a new aluminum grain bed — an ideal setup for agricultural hauling, grain transport, and farm logistics. With only 5,000 miles on a rebuilt motor, this truck has tremendous life ahead.
+
+Powered by an International DT530 6-cylinder diesel engine that has been professionally rebuilt with only 5,000 miles since the overhaul. The DT530 is known for its durability and strong torque characteristics, well-suited for heavy agricultural loads. Total chassis mileage is 410,000 miles.
+
+Equipped with an automatic transmission for ease of operation. The tandem rear axle configuration provides excellent load capacity and stability. Air ride suspension delivers a smooth ride and protects cargo. The new aluminum grain bed features a Shurco roll tarp for quick, weatherproof load coverage.
+
+Cab amenities include air conditioning and heat for year-round operator comfort. Left-hand drive configuration. This truck is turn-key ready for the upcoming harvest season — a perfect match for farm operations needing reliable grain transport.`,
+    specs: {
+      'Engine': 'International DT530 6-cyl Diesel',
+      'Engine Rebuild': 'Yes — 5,000 miles ago',
+      'Mileage': '410,000 mi',
+      'Transmission': 'Automatic',
+      'Rear Axles': 'Tandem',
+      'Suspension': 'Air Ride',
+      'Bed': 'New Aluminum Grain Bed',
+      'Tarp': 'Shurco Roll Tarp',
+      'Cab': 'A/C and Heat',
+      'Drive Side': 'Left Hand Drive',
+      'Year': '2004',
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2004-international-durastar-4300/${i + 1}.`),
+  },
+
+  {
+    slug: '2016-international-lonestar',
+    category: 'Trucks',
+    categorySlug: 'trucks',
+    title: '2016 International Lonestar',
+    price: 55000,
+    year: 2016,
+    make: 'International',
+    model: 'Lonestar',
+            description: `The 2016 International Lonestar is a premium heavy-duty truck configured for agricultural commodity transport with a 25-foot walking floor bed — an exceptionally versatile setup for hauling grain, silage, feed, and bulk materials.
+
+Powered by a Cummins diesel engine producing 540 HP — immense power for heavy agricultural loads and long-haul transport. Paired with an 18-speed manual transmission with full lockers for maximum traction and control in all conditions. The twin-screw tandem axle configuration with 2 tags provides excellent weight distribution and load capacity.
+
+The 25-foot walking floor bed with cargo door holds approximately 57 cubic yards of material. The walking floor system allows loading and unloading without tipping — material "walks on and walks off" — making it exceptionally versatile and safe. The floor and top were replaced new in November 2005.
+
+Equipped with a pintle hook and air connections to the rear for trailer towing capability. Only 105,065 miles on this well-maintained truck. Left-hand drive. This Lonestar represents a premium opportunity for agricultural operations needing high-capacity, flexible bulk transport with a professional-grade truck.`,
+    specs: {
+      'Engine': 'Cummins Diesel',
+      'Engine Power': '540 HP',
+      'Mileage': '105,065 mi',
+      'Transmission': '18-Speed Manual',
+      'Lockers': 'Full Lockers',
+      'Rear Axles': 'Twin Screw + 2 Tags',
+      'Hitch': 'Pintle Hook w/ Air',
+      'Bed': "25' Walking Floor",
+      'Bed Capacity': '~57 cu yd',
+      'Cargo Door': 'Yes',
+      'Drive Side': 'Left Hand Drive',
+      'Year': '2016',
+    },
+    images: Array.from({ length: 8 }, (_, i) => `/inventory/2016-international-lonestar/${i + 1}.`),
+  }
 ];
 
 export const categories = [
@@ -1132,6 +1884,10 @@ export const categories = [
     icon: '💧',
   },
   { name: 'Tractors', slug: 'tractors', icon: '🚜' },
+  { name: 'Excavators', slug: 'excavators', icon: '⛏️' },
+  { name: 'Compact Track Loaders', slug: 'compact-track-loaders', icon: '🏗️' },
+  { name: 'Skid Steer Loaders', slug: 'skid-steer-loaders', icon: '🚧' },
+  { name: 'Trucks', slug: 'trucks', icon: '🚚' },
 ] as const;
 
 export function getMachineBySlug(slug: string): Machine | undefined {
