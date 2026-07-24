@@ -28,12 +28,13 @@ export const metadata: Metadata = {
     'Dealer catalog for quality used heavy agricultural equipment, combines, tractors, sprayers, grain carts, and more.',
 };
 
+const FB_PIXEL_ID = '1419796296835480';
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
-      <body className="flex min-h-screen flex-col bg-background text-text-primary">
-        
-        {/* Facebook Pixel */}
+      <head>
+        {/* Meta Pixel Code */}
         <Script
           id="facebook-pixel"
           strategy="afterInteractive"
@@ -47,21 +48,19 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '2245581306275167');
+              fbq('init', '${FB_PIXEL_ID}');
               fbq('track', 'PageView');
             `,
           }}
         />
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: 'none' }}
-            src="https://www.facebook.com/tr?id=2245581306275167&ev=PageView&noscript=1"
-          />
-        </noscript>
-        {/* Конец Facebook Pixel */}
-
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1" />`,
+          }}
+        />
+        {/* End Meta Pixel Code */}
+      </head>
+      <body className="flex min-h-screen flex-col bg-background text-text-primary">
         <Header />
         <main>{children}</main>
         <Footer />
