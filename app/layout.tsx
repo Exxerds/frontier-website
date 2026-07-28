@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'Dealer catalog for quality used heavy agricultural equipment, combines, tractors, sprayers, grain carts, and more.',
 };
 
-const FB_PIXEL_ID = '1419796296835480';
+const FB_PIXEL_ID = '1540720564739842';
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
